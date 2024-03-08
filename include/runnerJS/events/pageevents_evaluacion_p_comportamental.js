@@ -1,0 +1,2 @@
+
+Runner.pages.PageSettings.addPageEvent('evaluacion_p_comportamental',Runner.pages.constants.PAGE_EDIT,"afterPageReady",function(pageObj,proxy,pageid,inlineRow,inlineObject,row){var ctrla=Runner.getControl(pageid,'idCompetencia');ctrla.makeReadonly();var ctrlb=Runner.getControl(pageid,'idComportamental');ctrlb.makeReadonly();var ctrlc=Runner.getControl(pageid,'idConducta');ctrlc.makeReadonly();});

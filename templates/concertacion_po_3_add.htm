@@ -1,0 +1,1248 @@
+<!doctype html>
+<html  {$html_attrs}>
+	<head>
+				<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>{$pagetitle}</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<base href="{$projectPath}">
+		<link REL="stylesheet" href="styles/default.css?{$wizardBuildKey}" type="text/css">
+	{BEGIN rtlCSS}
+	<link REL="stylesheet" href="styles/defaultRTL.css?{$wizardBuildKey}" type="text/css">
+	{END rtlCSS}
+	{BEGIN styleCSSFiles}
+	<link REL="stylesheet" href="{$stylepath}" type="text/css">
+	{END styleCSSFiles}
+			
+	</head>
+
+	<body class="{$stylename} function-add" >
+	{BEGIN body}
+		{$header}
+		<style>
+			{$containerCss}
+		</style>
+		{$locking}
+		<div class="r-small-page" 
+			data-body-align="center"
+			data-body-width="standard"
+		>
+							{BEGIN top_block}
+<div class="r-form" data-location="top" id="form_top_{$pageid}" data-makeup="small" {$form_top} data-pageid="{$pageid}"
+		data-v-width="4"
+	data-v-margin="0"
+	
+>		
+	 
+		<div class="row">
+			 
+				<div 
+	data-cellId="top_c1" data-pageid="{$pageid}"	{$cell_top_c1}
+	class=" r-ori-vert			col-md-12
+	">
+	 
+		<h2 data-itemtype="add_header" data-itemid="add_header" {$item_add_header} data-pageid="{$pageid}" >{$pagetitlelabel concertacion_po_3 add}</h2>
+	</div>					</div>
+	</div>		
+{END top_block}
+									{BEGIN above-grid_block}
+<div class="r-form" data-location="above-grid" id="form_above-grid_{$pageid}" data-makeup="small" {$form_above-grid} data-pageid="{$pageid}"
+		data-v-width="4"
+	data-v-margin="0"
+	
+>		
+	 
+		<div class="row">
+			 
+				<div 
+	data-cellId="above-grid_c1" data-pageid="{$pageid}"	{$cell_above-grid_c1}
+	class=" r-ori-vert			col-md-12
+	">
+	 
+		{BEGIN message_block}
+<div data-itemtype="add_message" data-itemid="add_message" {$item_add_message} data-pageid="{$pageid}" class="alert {$message_class}" role="alert">
+<h5>{$message}</h5>
+<div>
+{BEGIN message_back_button}
+		
+	<button class="btn btn-sm btn-default" {$backbutton_attrs}>Volver a la lista</button>
+	{END message_back_button}
+{BEGIN view_page_button}
+	<button class="btn btn-sm btn-default" {$view_page_button_attrs}>Ver</button>
+{END view_page_button}
+{BEGIN edit_page_button}
+	<button class="btn btn-sm btn-default" {$edit_page_button_attrs}>Editar</button>
+{END edit_page_button}
+</div>
+</div>
+{END message_block}	</div>					</div>
+	 
+		<div class="row">
+			 
+				<div 
+	data-cellId="above-grid_c2" data-pageid="{$pageid}"	{$cell_above-grid_c2}
+	class=" r-ori-vert			col-md-12
+	">
+	 
+		<ul class="nav nav-pills nav-justified" id="stepnav{$id}"  data-stepcontrol data-itemtype="step_nav" data-itemid="step_nav" {$item_step_nav} data-pageid="{$pageid}">
+			<li role="presentation" data-step="0">
+			<a href="#">Concertación</a>
+		</li>
+			<li role="presentation" data-step="1">
+			<a href="#">Evaluado</a>
+		</li>
+			<li role="presentation" data-step="2">
+			<a href="#">Evaluador</a>
+		</li>
+	</ul>	</div>					</div>
+	</div>		
+{END above-grid_block}
+									{BEGIN steps_block}
+			<div id="step_0_{$id}" class="stepFrame" data-step="0" >
+		{BEGIN step3_block}
+
+
+
+
+ 
+	 
+												<table 
+	data-body-align="center"
+	data-location="step3" id="form_step3_{$pageid}" data-makeup="small" {$form_step3} data-pageid="{$pageid}" 
+	class="r-edit-form" cellpadding="0" cellspacing="0" 
+	{$grid_hiddenattr} 
+		data-form-width="2"
+		
+		data-v-width="4"
+	>
+	<tbody>
+										<tr {$row_step3_0} >
+										
+
+{BEGIN cellblock_step3_c4}
+<td
+	{$cell_step3_c4}
+	class=" r-ori-vert"
+	
+			data-single
+			
+			data-cellId="step3_c4" data-pageid="{$pageid}"
+		data-v-cell="2"
+		
+>
+	<div edit-form-cell class="clearfix">
+				
+{BEGIN periodo_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_periodo}  r-vertical-field" 
+	data-signal-error-for="periodo{$id}" {$required_attr_periodo}
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field5" {$item_integrated_edit_field5} data-pageid="{$pageid}" data-field="periodo" data-fieldname="periodo" >
+
+	<label class="r-edit-label control-label" for="{$labelfor_periodo}">
+		{BEGIN periodo_label}{$label concertacion_po_3 periodo }{END periodo_label}
+		<span class="icon-required"></span>
+	</label>
+	<div class="r-edit-field">
+		{$periodo_editcontrol}	</div>
+	<div class="r-edit-tooltip" data-helpfor="periodo" {$tooltipAttr concertacion_po_3 periodo } >
+		<div class="text-muted" >
+		{$tooltip concertacion_po_3 periodo }		</div>
+	</div>
+</div>
+
+
+{END periodo_fieldblock}
+	
+								</td>
+			{END cellblock_step3_c4}
+			 
+																
+
+{BEGIN cellblock_step3_c5}
+<td
+	{$cell_step3_c5}
+	class=" r-ori-vert"
+	
+			data-single
+			
+			data-cellId="step3_c5" data-pageid="{$pageid}"
+		data-v-cell="2"
+		
+>
+	<div edit-form-cell class="clearfix">
+				
+{BEGIN fchCreacion_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_fchCreacion}  r-vertical-field" 
+	data-signal-error-for="fchCreacion{$id}" {$required_attr_fchCreacion}
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field6" {$item_integrated_edit_field6} data-pageid="{$pageid}" data-field="fchCreacion" data-fieldname="fchCreacion" >
+
+	<label class="r-edit-label control-label" for="{$labelfor_fchCreacion}">
+		{BEGIN fchCreacion_label}{$label concertacion_po_3 fchCreacion }{END fchCreacion_label}
+		<span class="icon-required"></span>
+	</label>
+	<div class="r-edit-field">
+		{$fchCreacion_editcontrol}	</div>
+	<div class="r-edit-tooltip" data-helpfor="fchCreacion" {$tooltipAttr concertacion_po_3 fchCreacion } >
+		<div class="text-muted" >
+		{$tooltip concertacion_po_3 fchCreacion }		</div>
+	</div>
+</div>
+
+
+{END fchCreacion_fieldblock}
+	
+								</td>
+			{END cellblock_step3_c5}
+								</tr>
+	 
+	 
+														<tr {$row_step3_1} >
+										
+
+{BEGIN cellblock_step3_c6}
+<td
+	{$cell_step3_c6}
+	class=" r-ori-vert"
+	
+			data-single
+			
+			data-cellId="step3_c6" data-pageid="{$pageid}"
+		data-v-cell="2"
+		
+>
+	<div edit-form-cell class="clearfix">
+				
+{BEGIN vigencia_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_vigencia}  r-vertical-field" 
+	data-signal-error-for="vigencia{$id}" {$required_attr_vigencia}
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field4" {$item_integrated_edit_field4} data-pageid="{$pageid}" data-field="vigencia" data-fieldname="vigencia" >
+
+	<label class="r-edit-label control-label" for="{$labelfor_vigencia}">
+		{BEGIN vigencia_label}{$label concertacion_po_3 vigencia }{END vigencia_label}
+		<span class="icon-required"></span>
+	</label>
+	<div class="r-edit-field">
+		{$vigencia_editcontrol}	</div>
+	<div class="r-edit-tooltip" data-helpfor="vigencia" {$tooltipAttr concertacion_po_3 vigencia } >
+		<div class="text-muted" >
+		{$tooltip concertacion_po_3 vigencia }		</div>
+	</div>
+</div>
+
+
+{END vigencia_fieldblock}
+	
+								</td>
+			{END cellblock_step3_c6}
+			 
+		
+							
+
+{BEGIN cellblock_step3_c}
+<td
+	{$cell_step3_c}
+	class=" r-ori-vert"
+	
+			data-single
+			
+			data-cellId="step3_c" data-pageid="{$pageid}"
+		data-v-cell="2"
+		
+>
+	<div edit-form-cell class="clearfix">
+									</td>
+			{END cellblock_step3_c}
+								</tr>
+	 
+	 
+														<tr {$row_step3_2} >
+										
+
+{BEGIN cellblock_step3_c8}
+<td
+	{$cell_step3_c8}
+	class=" r-ori-vert"
+	
+			data-single
+			
+			data-cellId="step3_c8" data-pageid="{$pageid}"
+		data-v-cell="2"
+		
+>
+	<div edit-form-cell class="clearfix">
+				
+{BEGIN evaluado_fechai_po_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_evaluado_fechai_po}  r-vertical-field" 
+	data-signal-error-for="evaluado_fechai_po{$id}" {$required_attr_evaluado_fechai_po}
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field20" {$item_integrated_edit_field20} data-pageid="{$pageid}" data-field="evaluado_fechai_po" data-fieldname="evaluado_fechai_po" >
+
+	<label class="r-edit-label control-label" for="{$labelfor_evaluado_fechai_po}">
+		{BEGIN evaluado_fechai_po_label}{$label concertacion_po_3 evaluado_fechai_po }{END evaluado_fechai_po_label}
+		<span class="icon-required"></span>
+	</label>
+	<div class="r-edit-field">
+		{$evaluado_fechai_po_editcontrol}	</div>
+	<div class="r-edit-tooltip" data-helpfor="evaluado_fechai_po" {$tooltipAttr concertacion_po_3 evaluado_fechai_po } >
+		<div class="text-muted" >
+		{$tooltip concertacion_po_3 evaluado_fechai_po }		</div>
+	</div>
+</div>
+
+
+{END evaluado_fechai_po_fieldblock}
+	
+								</td>
+			{END cellblock_step3_c8}
+			 
+																
+
+{BEGIN cellblock_step3_c9}
+<td
+	{$cell_step3_c9}
+	class=" r-ori-vert"
+	
+			data-single
+			
+			data-cellId="step3_c9" data-pageid="{$pageid}"
+		data-v-cell="2"
+		
+>
+	<div edit-form-cell class="clearfix">
+				
+{BEGIN evaluado_fechaf_po_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_evaluado_fechaf_po}  r-vertical-field" 
+	data-signal-error-for="evaluado_fechaf_po{$id}" {$required_attr_evaluado_fechaf_po}
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field21" {$item_integrated_edit_field21} data-pageid="{$pageid}" data-field="evaluado_fechaf_po" data-fieldname="evaluado_fechaf_po" >
+
+	<label class="r-edit-label control-label" for="{$labelfor_evaluado_fechaf_po}">
+		{BEGIN evaluado_fechaf_po_label}{$label concertacion_po_3 evaluado_fechaf_po }{END evaluado_fechaf_po_label}
+		<span class="icon-required"></span>
+	</label>
+	<div class="r-edit-field">
+		{$evaluado_fechaf_po_editcontrol}	</div>
+	<div class="r-edit-tooltip" data-helpfor="evaluado_fechaf_po" {$tooltipAttr concertacion_po_3 evaluado_fechaf_po } >
+		<div class="text-muted" >
+		{$tooltip concertacion_po_3 evaluado_fechaf_po }		</div>
+	</div>
+</div>
+
+
+{END evaluado_fechaf_po_fieldblock}
+	
+								</td>
+			{END cellblock_step3_c9}
+								</tr>
+	 
+	 
+														<tr {$row_step3_3} >
+										
+
+{BEGIN cellblock_step3_c10}
+<td
+	{$cell_step3_c10}
+	class=" r-ori-vert"
+	
+			data-single
+			
+			data-cellId="step3_c10" data-pageid="{$pageid}"
+		data-v-cell=""
+		
+>
+	<div edit-form-cell class="clearfix">
+				
+{BEGIN estado_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_estado}  r-vertical-field" 
+	data-signal-error-for="estado{$id}" {$required_attr_estado}
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field8" {$item_integrated_edit_field8} data-pageid="{$pageid}" data-field="estado" data-fieldname="estado" >
+
+	<label class="r-edit-label control-label" for="{$labelfor_estado}">
+		{BEGIN estado_label}{$label concertacion_po_3 estado }{END estado_label}
+		<span class="icon-required"></span>
+	</label>
+	<div class="r-edit-field">
+		{$estado_editcontrol}	</div>
+	<div class="r-edit-tooltip" data-helpfor="estado" {$tooltipAttr concertacion_po_3 estado } >
+		<div class="text-muted" >
+		{$tooltip concertacion_po_3 estado }		</div>
+	</div>
+</div>
+
+
+{END estado_fieldblock}
+	
+								</td>
+			{END cellblock_step3_c10}
+			 
+		
+							
+
+{BEGIN cellblock_step3_c11}
+<td
+	{$cell_step3_c11}
+	class=" r-ori-vert"
+	
+			data-single
+			
+			data-cellId="step3_c11" data-pageid="{$pageid}"
+		data-v-cell="4"
+		
+>
+	<div edit-form-cell class="clearfix">
+									</td>
+			{END cellblock_step3_c11}
+								</tr>
+			</tbody></table>
+{END step3_block}
+</div>	
+				<div id="step_1_{$id}" class="stepFrame" data-step="1" style="display:none">
+		{BEGIN grid_block}
+
+
+
+
+ 
+	 
+												<table 
+	data-body-align="center"
+	data-location="grid" id="form_grid_{$pageid}" data-makeup="small" {$form_grid} data-pageid="{$pageid}" 
+	class="r-edit-form" cellpadding="0" cellspacing="0" 
+	{$grid_hiddenattr} 
+		data-form-width="2"
+		
+		data-v-width="4"
+	>
+	<tbody>
+										<tr {$row_grid_0} >
+										
+
+{BEGIN cellblock_grid_c4}
+<td
+	{$cell_grid_c4}
+	class=" r-ori-vert"
+	
+			data-single
+			
+			data-cellId="grid_c4" data-pageid="{$pageid}"
+		data-v-cell="2"
+		
+>
+	<div edit-form-cell class="clearfix">
+				
+{BEGIN idEvaluado_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_idEvaluado}  r-vertical-field" 
+	data-signal-error-for="idEvaluado{$id}" {$required_attr_idEvaluado}
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field" {$item_integrated_edit_field} data-pageid="{$pageid}" data-field="idEvaluado" data-fieldname="idEvaluado" >
+
+	<label class="r-edit-label control-label" for="{$labelfor_idEvaluado}">
+		{BEGIN idEvaluado_label}{$label concertacion_po_3 idEvaluado }{END idEvaluado_label}
+		<span class="icon-required"></span>
+	</label>
+	<div class="r-edit-field">
+		{$idEvaluado_editcontrol}	</div>
+	<div class="r-edit-tooltip" data-helpfor="idEvaluado" {$tooltipAttr concertacion_po_3 idEvaluado } >
+		<div class="text-muted" >
+		{$tooltip concertacion_po_3 idEvaluado }		</div>
+	</div>
+</div>
+
+
+{END idEvaluado_fieldblock}
+	
+								</td>
+			{END cellblock_grid_c4}
+			 
+		
+							
+
+{BEGIN cellblock_grid_c5}
+<td
+	{$cell_grid_c5}
+	class=" r-ori-vert"
+	
+			data-single
+			
+			data-cellId="grid_c5" data-pageid="{$pageid}"
+		data-v-cell="2"
+		
+>
+	<div edit-form-cell class="clearfix">
+									</td>
+			{END cellblock_grid_c5}
+								</tr>
+	 
+	 
+														<tr {$row_grid_1} >
+										
+
+{BEGIN cellblock_grid_c6}
+<td
+	{$cell_grid_c6}
+	class=" r-ori-vert"
+	
+			data-single
+			
+			data-cellId="grid_c6" data-pageid="{$pageid}"
+		data-v-cell="2"
+		
+>
+	<div edit-form-cell class="clearfix">
+				
+{BEGIN evaluado_doc_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_evaluado_doc}  r-vertical-field" 
+	data-signal-error-for="evaluado_doc{$id}" {$required_attr_evaluado_doc}
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field14" {$item_integrated_edit_field14} data-pageid="{$pageid}" data-field="evaluado_doc" data-fieldname="evaluado_doc" >
+
+	<label class="r-edit-label control-label" for="{$labelfor_evaluado_doc}">
+		{BEGIN evaluado_doc_label}{$label concertacion_po_3 evaluado_doc }{END evaluado_doc_label}
+		<span class="icon-required"></span>
+	</label>
+	<div class="r-edit-field">
+		{$evaluado_doc_editcontrol}	</div>
+	<div class="r-edit-tooltip" data-helpfor="evaluado_doc" {$tooltipAttr concertacion_po_3 evaluado_doc } >
+		<div class="text-muted" >
+		{$tooltip concertacion_po_3 evaluado_doc }		</div>
+	</div>
+</div>
+
+
+{END evaluado_doc_fieldblock}
+	
+								</td>
+			{END cellblock_grid_c6}
+			 
+																
+
+{BEGIN cellblock_grid_c7}
+<td
+	{$cell_grid_c7}
+	class=" r-ori-vert"
+	
+			data-single
+			
+			data-cellId="grid_c7" data-pageid="{$pageid}"
+		data-v-cell="2"
+		
+>
+	<div edit-form-cell class="clearfix">
+				
+{BEGIN evaluado_nombre_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_evaluado_nombre}  r-vertical-field" 
+	data-signal-error-for="evaluado_nombre{$id}" {$required_attr_evaluado_nombre}
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field15" {$item_integrated_edit_field15} data-pageid="{$pageid}" data-field="evaluado_nombre" data-fieldname="evaluado_nombre" >
+
+	<label class="r-edit-label control-label" for="{$labelfor_evaluado_nombre}">
+		{BEGIN evaluado_nombre_label}{$label concertacion_po_3 evaluado_nombre }{END evaluado_nombre_label}
+		<span class="icon-required"></span>
+	</label>
+	<div class="r-edit-field">
+		{$evaluado_nombre_editcontrol}	</div>
+	<div class="r-edit-tooltip" data-helpfor="evaluado_nombre" {$tooltipAttr concertacion_po_3 evaluado_nombre } >
+		<div class="text-muted" >
+		{$tooltip concertacion_po_3 evaluado_nombre }		</div>
+	</div>
+</div>
+
+
+{END evaluado_nombre_fieldblock}
+	
+								</td>
+			{END cellblock_grid_c7}
+								</tr>
+	 
+	 
+														<tr {$row_grid_2} >
+										
+
+{BEGIN cellblock_grid_c}
+<td
+	{$cell_grid_c}
+	class=" r-ori-vert"
+	
+			data-single
+			
+			data-cellId="grid_c" data-pageid="{$pageid}"
+		data-v-cell="2"
+		
+>
+	<div edit-form-cell class="clearfix">
+				
+{BEGIN evaluado_email_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_evaluado_email}  r-vertical-field" 
+	data-signal-error-for="evaluado_email{$id}" {$required_attr_evaluado_email}
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field17" {$item_integrated_edit_field17} data-pageid="{$pageid}" data-field="evaluado_email" data-fieldname="evaluado_email" >
+
+	<label class="r-edit-label control-label" for="{$labelfor_evaluado_email}">
+		{BEGIN evaluado_email_label}{$label concertacion_po_3 evaluado_email }{END evaluado_email_label}
+		<span class="icon-required"></span>
+	</label>
+	<div class="r-edit-field">
+		{$evaluado_email_editcontrol}	</div>
+	<div class="r-edit-tooltip" data-helpfor="evaluado_email" {$tooltipAttr concertacion_po_3 evaluado_email } >
+		<div class="text-muted" >
+		{$tooltip concertacion_po_3 evaluado_email }		</div>
+	</div>
+</div>
+
+
+{END evaluado_email_fieldblock}
+	
+								</td>
+			{END cellblock_grid_c}
+			 
+		
+							
+
+{BEGIN cellblock_grid_c3}
+<td
+	{$cell_grid_c3}
+	class=" r-ori-vert"
+	
+			data-single
+			
+			data-cellId="grid_c3" data-pageid="{$pageid}"
+		data-v-cell="2"
+		
+>
+	<div edit-form-cell class="clearfix">
+									</td>
+			{END cellblock_grid_c3}
+								</tr>
+	 
+	 
+														<tr {$row_grid_3} >
+										
+
+{BEGIN cellblock_grid_c1}
+<td
+	{$cell_grid_c1}
+	class=" r-ori-vert"
+	
+			data-single
+			
+			data-cellId="grid_c1" data-pageid="{$pageid}"
+		data-v-cell="2"
+		
+>
+	<div edit-form-cell class="clearfix">
+				
+{BEGIN evaluado_cargo_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_evaluado_cargo}  r-vertical-field" 
+	data-signal-error-for="evaluado_cargo{$id}" {$required_attr_evaluado_cargo}
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field16" {$item_integrated_edit_field16} data-pageid="{$pageid}" data-field="evaluado_cargo" data-fieldname="evaluado_cargo" >
+
+	<label class="r-edit-label control-label" for="{$labelfor_evaluado_cargo}">
+		{BEGIN evaluado_cargo_label}{$label concertacion_po_3 evaluado_cargo }{END evaluado_cargo_label}
+		<span class="icon-required"></span>
+	</label>
+	<div class="r-edit-field">
+		{$evaluado_cargo_editcontrol}	</div>
+	<div class="r-edit-tooltip" data-helpfor="evaluado_cargo" {$tooltipAttr concertacion_po_3 evaluado_cargo } >
+		<div class="text-muted" >
+		{$tooltip concertacion_po_3 evaluado_cargo }		</div>
+	</div>
+</div>
+
+
+{END evaluado_cargo_fieldblock}
+	
+								</td>
+			{END cellblock_grid_c1}
+			 
+																
+
+{BEGIN cellblock_grid_c2}
+<td
+	{$cell_grid_c2}
+	class=" r-ori-vert"
+	
+			data-single
+			
+			data-cellId="grid_c2" data-pageid="{$pageid}"
+		data-v-cell="2"
+		
+>
+	<div edit-form-cell class="clearfix">
+				
+{BEGIN evaluado_nombramiento_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_evaluado_nombramiento}  r-vertical-field" 
+	data-signal-error-for="evaluado_nombramiento{$id}" {$required_attr_evaluado_nombramiento}
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field27" {$item_integrated_edit_field27} data-pageid="{$pageid}" data-field="evaluado_nombramiento" data-fieldname="evaluado_nombramiento" >
+
+	<label class="r-edit-label control-label" for="{$labelfor_evaluado_nombramiento}">
+		{BEGIN evaluado_nombramiento_label}{$label concertacion_po_3 evaluado_nombramiento }{END evaluado_nombramiento_label}
+		<span class="icon-required"></span>
+	</label>
+	<div class="r-edit-field">
+		{$evaluado_nombramiento_editcontrol}	</div>
+	<div class="r-edit-tooltip" data-helpfor="evaluado_nombramiento" {$tooltipAttr concertacion_po_3 evaluado_nombramiento } >
+		<div class="text-muted" >
+		{$tooltip concertacion_po_3 evaluado_nombramiento }		</div>
+	</div>
+</div>
+
+
+{END evaluado_nombramiento_fieldblock}
+	
+								</td>
+			{END cellblock_grid_c2}
+								</tr>
+	 
+	 
+														<tr {$row_grid_4} >
+										
+
+{BEGIN cellblock_grid_c11}
+<td
+	{$cell_grid_c11}
+	class=" r-ori-vert"
+	
+			data-single
+			
+	ocolspan="2"		data-cellId="grid_c11" data-pageid="{$pageid}"
+		data-v-cell="4"
+		
+>
+	<div edit-form-cell class="clearfix">
+				
+{BEGIN id_comportamental_fk_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_id_comportamental_fk}  r-vertical-field" 
+	data-signal-error-for="id_comportamental_fk{$id}" {$required_attr_id_comportamental_fk}
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field2" {$item_integrated_edit_field2} data-pageid="{$pageid}" data-field="id_comportamental_fk" data-fieldname="id_comportamental_fk" >
+
+	<label class="r-edit-label control-label" for="{$labelfor_id_comportamental_fk}">
+		{BEGIN id_comportamental_fk_label}{$label concertacion_po_3 id_comportamental_fk }{END id_comportamental_fk_label}
+		<span class="icon-required"></span>
+	</label>
+	<div class="r-edit-field">
+		{$id_comportamental_fk_editcontrol}	</div>
+	<div class="r-edit-tooltip" data-helpfor="id_comportamental_fk" {$tooltipAttr concertacion_po_3 id_comportamental_fk } >
+		<div class="text-muted" >
+		{$tooltip concertacion_po_3 id_comportamental_fk }		</div>
+	</div>
+</div>
+
+
+{END id_comportamental_fk_fieldblock}
+	
+								</td>
+			{END cellblock_grid_c11}
+								</tr>
+	 
+	 
+														<tr {$row_grid_5} >
+										
+
+{BEGIN cellblock_grid_c8}
+<td
+	{$cell_grid_c8}
+	class=" r-ori-vert"
+	
+			data-single
+			
+			data-cellId="grid_c8" data-pageid="{$pageid}"
+		data-v-cell="2"
+		
+>
+	<div edit-form-cell class="clearfix">
+				
+{BEGIN evaluado_dep_sup_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_evaluado_dep_sup}  r-vertical-field" 
+	data-signal-error-for="evaluado_dep_sup{$id}" {$required_attr_evaluado_dep_sup}
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field18" {$item_integrated_edit_field18} data-pageid="{$pageid}" data-field="evaluado_dep_sup" data-fieldname="evaluado_dep_sup" >
+
+	<label class="r-edit-label control-label" for="{$labelfor_evaluado_dep_sup}">
+		{BEGIN evaluado_dep_sup_label}{$label concertacion_po_3 evaluado_dep_sup }{END evaluado_dep_sup_label}
+		<span class="icon-required"></span>
+	</label>
+	<div class="r-edit-field">
+		{$evaluado_dep_sup_editcontrol}	</div>
+	<div class="r-edit-tooltip" data-helpfor="evaluado_dep_sup" {$tooltipAttr concertacion_po_3 evaluado_dep_sup } >
+		<div class="text-muted" >
+		{$tooltip concertacion_po_3 evaluado_dep_sup }		</div>
+	</div>
+</div>
+
+
+{END evaluado_dep_sup_fieldblock}
+	
+								</td>
+			{END cellblock_grid_c8}
+			 
+																
+
+{BEGIN cellblock_grid_c9}
+<td
+	{$cell_grid_c9}
+	class=" r-ori-vert"
+	
+			data-single
+			
+			data-cellId="grid_c9" data-pageid="{$pageid}"
+		data-v-cell="2"
+		
+>
+	<div edit-form-cell class="clearfix">
+				
+{BEGIN evaluado_dep_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_evaluado_dep}  r-vertical-field" 
+	data-signal-error-for="evaluado_dep{$id}" {$required_attr_evaluado_dep}
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field19" {$item_integrated_edit_field19} data-pageid="{$pageid}" data-field="evaluado_dep" data-fieldname="evaluado_dep" >
+
+	<label class="r-edit-label control-label" for="{$labelfor_evaluado_dep}">
+		{BEGIN evaluado_dep_label}{$label concertacion_po_3 evaluado_dep }{END evaluado_dep_label}
+		<span class="icon-required"></span>
+	</label>
+	<div class="r-edit-field">
+		{$evaluado_dep_editcontrol}	</div>
+	<div class="r-edit-tooltip" data-helpfor="evaluado_dep" {$tooltipAttr concertacion_po_3 evaluado_dep } >
+		<div class="text-muted" >
+		{$tooltip concertacion_po_3 evaluado_dep }		</div>
+	</div>
+</div>
+
+
+{END evaluado_dep_fieldblock}
+	
+								</td>
+			{END cellblock_grid_c9}
+								</tr>
+			</tbody></table>
+{END grid_block}
+</div>	
+				<div id="step_2_{$id}" class="stepFrame" data-step="2" style="display:none">
+		{BEGIN step2_block}
+
+
+
+
+ 
+	 
+												<table 
+	data-body-align="center"
+	data-location="step2" id="form_step2_{$pageid}" data-makeup="small" {$form_step2} data-pageid="{$pageid}" 
+	class="r-edit-form" cellpadding="0" cellspacing="0" 
+	{$grid_hiddenattr} 
+		data-form-width="2"
+		
+		data-v-width="4"
+	>
+	<tbody>
+										<tr {$row_step2_0} >
+										
+
+{BEGIN cellblock_step2_c1}
+<td
+	{$cell_step2_c1}
+	class=" r-ori-vert"
+	
+			data-single
+			
+			data-cellId="step2_c1" data-pageid="{$pageid}"
+		data-v-cell="2"
+		
+>
+	<div edit-form-cell class="clearfix">
+				
+{BEGIN idEvaluador_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_idEvaluador}  r-vertical-field" 
+	data-signal-error-for="idEvaluador{$id}" {$required_attr_idEvaluador}
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field1" {$item_integrated_edit_field1} data-pageid="{$pageid}" data-field="idEvaluador" data-fieldname="idEvaluador" >
+
+	<label class="r-edit-label control-label" for="{$labelfor_idEvaluador}">
+		{BEGIN idEvaluador_label}{$label concertacion_po_3 idEvaluador }{END idEvaluador_label}
+		<span class="icon-required"></span>
+	</label>
+	<div class="r-edit-field">
+		{$idEvaluador_editcontrol}	</div>
+	<div class="r-edit-tooltip" data-helpfor="idEvaluador" {$tooltipAttr concertacion_po_3 idEvaluador } >
+		<div class="text-muted" >
+		{$tooltip concertacion_po_3 idEvaluador }		</div>
+	</div>
+</div>
+
+
+{END idEvaluador_fieldblock}
+	
+								</td>
+			{END cellblock_step2_c1}
+			 
+																
+
+{BEGIN cellblock_step2_c}
+<td
+	{$cell_step2_c}
+	class=" r-ori-vert"
+	
+			data-single
+			
+			data-cellId="step2_c" data-pageid="{$pageid}"
+		data-v-cell="2"
+		
+>
+	<div edit-form-cell class="clearfix">
+				
+{BEGIN evaluador_doc_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_evaluador_doc}  r-vertical-field" 
+	data-signal-error-for="evaluador_doc{$id}" {$required_attr_evaluador_doc}
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field22" {$item_integrated_edit_field22} data-pageid="{$pageid}" data-field="evaluador_doc" data-fieldname="evaluador_doc" >
+
+	<label class="r-edit-label control-label" for="{$labelfor_evaluador_doc}">
+		{BEGIN evaluador_doc_label}{$label concertacion_po_3 evaluador_doc }{END evaluador_doc_label}
+		<span class="icon-required"></span>
+	</label>
+	<div class="r-edit-field">
+		{$evaluador_doc_editcontrol}	</div>
+	<div class="r-edit-tooltip" data-helpfor="evaluador_doc" {$tooltipAttr concertacion_po_3 evaluador_doc } >
+		<div class="text-muted" >
+		{$tooltip concertacion_po_3 evaluador_doc }		</div>
+	</div>
+</div>
+
+
+{END evaluador_doc_fieldblock}
+	
+								</td>
+			{END cellblock_step2_c}
+								</tr>
+	 
+	 
+														<tr {$row_step2_1} >
+										
+
+{BEGIN cellblock_step2_c10}
+<td
+	{$cell_step2_c10}
+	class=" r-ori-vert"
+	
+			data-single
+			
+			data-cellId="step2_c10" data-pageid="{$pageid}"
+		data-v-cell=""
+		
+>
+	<div edit-form-cell class="clearfix">
+				
+{BEGIN evaluador_email_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_evaluador_email}  r-vertical-field" 
+	data-signal-error-for="evaluador_email{$id}" {$required_attr_evaluador_email}
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field25" {$item_integrated_edit_field25} data-pageid="{$pageid}" data-field="evaluador_email" data-fieldname="evaluador_email" >
+
+	<label class="r-edit-label control-label" for="{$labelfor_evaluador_email}">
+		{BEGIN evaluador_email_label}{$label concertacion_po_3 evaluador_email }{END evaluador_email_label}
+		<span class="icon-required"></span>
+	</label>
+	<div class="r-edit-field">
+		{$evaluador_email_editcontrol}	</div>
+	<div class="r-edit-tooltip" data-helpfor="evaluador_email" {$tooltipAttr concertacion_po_3 evaluador_email } >
+		<div class="text-muted" >
+		{$tooltip concertacion_po_3 evaluador_email }		</div>
+	</div>
+</div>
+
+
+{END evaluador_email_fieldblock}
+	
+								</td>
+			{END cellblock_step2_c10}
+			 
+																
+
+{BEGIN cellblock_step2_c11}
+<td
+	{$cell_step2_c11}
+	class=" r-ori-vert"
+	
+			data-single
+			
+			data-cellId="step2_c11" data-pageid="{$pageid}"
+		data-v-cell="4"
+		
+>
+	<div edit-form-cell class="clearfix">
+				
+{BEGIN evaluador_nombre_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_evaluador_nombre}  r-vertical-field" 
+	data-signal-error-for="evaluador_nombre{$id}" {$required_attr_evaluador_nombre}
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field23" {$item_integrated_edit_field23} data-pageid="{$pageid}" data-field="evaluador_nombre" data-fieldname="evaluador_nombre" >
+
+	<label class="r-edit-label control-label" for="{$labelfor_evaluador_nombre}">
+		{BEGIN evaluador_nombre_label}{$label concertacion_po_3 evaluador_nombre }{END evaluador_nombre_label}
+		<span class="icon-required"></span>
+	</label>
+	<div class="r-edit-field">
+		{$evaluador_nombre_editcontrol}	</div>
+	<div class="r-edit-tooltip" data-helpfor="evaluador_nombre" {$tooltipAttr concertacion_po_3 evaluador_nombre } >
+		<div class="text-muted" >
+		{$tooltip concertacion_po_3 evaluador_nombre }		</div>
+	</div>
+</div>
+
+
+{END evaluador_nombre_fieldblock}
+	
+								</td>
+			{END cellblock_step2_c11}
+								</tr>
+	 
+	 
+														<tr {$row_step2_2} >
+										
+
+{BEGIN cellblock_step2_c4}
+<td
+	{$cell_step2_c4}
+	class=" r-ori-vert"
+	
+			data-single
+			
+			data-cellId="step2_c4" data-pageid="{$pageid}"
+		data-v-cell="2"
+		
+>
+	<div edit-form-cell class="clearfix">
+				
+{BEGIN evaluador_cargo_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_evaluador_cargo}  r-vertical-field" 
+	data-signal-error-for="evaluador_cargo{$id}" {$required_attr_evaluador_cargo}
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field24" {$item_integrated_edit_field24} data-pageid="{$pageid}" data-field="evaluador_cargo" data-fieldname="evaluador_cargo" >
+
+	<label class="r-edit-label control-label" for="{$labelfor_evaluador_cargo}">
+		{BEGIN evaluador_cargo_label}{$label concertacion_po_3 evaluador_cargo }{END evaluador_cargo_label}
+		<span class="icon-required"></span>
+	</label>
+	<div class="r-edit-field">
+		{$evaluador_cargo_editcontrol}	</div>
+	<div class="r-edit-tooltip" data-helpfor="evaluador_cargo" {$tooltipAttr concertacion_po_3 evaluador_cargo } >
+		<div class="text-muted" >
+		{$tooltip concertacion_po_3 evaluador_cargo }		</div>
+	</div>
+</div>
+
+
+{END evaluador_cargo_fieldblock}
+	
+								</td>
+			{END cellblock_step2_c4}
+			 
+																
+
+{BEGIN cellblock_step2_c5}
+<td
+	{$cell_step2_c5}
+	class=" r-ori-vert"
+	
+			data-single
+			
+			data-cellId="step2_c5" data-pageid="{$pageid}"
+		data-v-cell="2"
+		
+>
+	<div edit-form-cell class="clearfix">
+				
+{BEGIN evaluador_nombramiento_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_evaluador_nombramiento}  r-vertical-field" 
+	data-signal-error-for="evaluador_nombramiento{$id}" {$required_attr_evaluador_nombramiento}
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field26" {$item_integrated_edit_field26} data-pageid="{$pageid}" data-field="evaluador_nombramiento" data-fieldname="evaluador_nombramiento" >
+
+	<label class="r-edit-label control-label" for="{$labelfor_evaluador_nombramiento}">
+		{BEGIN evaluador_nombramiento_label}{$label concertacion_po_3 evaluador_nombramiento }{END evaluador_nombramiento_label}
+		<span class="icon-required"></span>
+	</label>
+	<div class="r-edit-field">
+		{$evaluador_nombramiento_editcontrol}	</div>
+	<div class="r-edit-tooltip" data-helpfor="evaluador_nombramiento" {$tooltipAttr concertacion_po_3 evaluador_nombramiento } >
+		<div class="text-muted" >
+		{$tooltip concertacion_po_3 evaluador_nombramiento }		</div>
+	</div>
+</div>
+
+
+{END evaluador_nombramiento_fieldblock}
+	
+								</td>
+			{END cellblock_step2_c5}
+								</tr>
+	 
+	 
+														<tr {$row_step2_3} >
+										
+
+{BEGIN cellblock_step2_c6}
+<td
+	{$cell_step2_c6}
+	class=" r-ori-vert"
+	
+			data-single
+			
+			data-cellId="step2_c6" data-pageid="{$pageid}"
+		data-v-cell="2"
+		
+>
+	<div edit-form-cell class="clearfix">
+				
+{BEGIN evaluador_dep_sup_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_evaluador_dep_sup}  r-vertical-field" 
+	data-signal-error-for="evaluador_dep_sup{$id}" {$required_attr_evaluador_dep_sup}
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field9" {$item_integrated_edit_field9} data-pageid="{$pageid}" data-field="evaluador_dep_sup" data-fieldname="evaluador_dep_sup" >
+
+	<label class="r-edit-label control-label" for="{$labelfor_evaluador_dep_sup}">
+		{BEGIN evaluador_dep_sup_label}{$label concertacion_po_3 evaluador_dep_sup }{END evaluador_dep_sup_label}
+		<span class="icon-required"></span>
+	</label>
+	<div class="r-edit-field">
+		{$evaluador_dep_sup_editcontrol}	</div>
+	<div class="r-edit-tooltip" data-helpfor="evaluador_dep_sup" {$tooltipAttr concertacion_po_3 evaluador_dep_sup } >
+		<div class="text-muted" >
+		{$tooltip concertacion_po_3 evaluador_dep_sup }		</div>
+	</div>
+</div>
+
+
+{END evaluador_dep_sup_fieldblock}
+	
+								</td>
+			{END cellblock_step2_c6}
+			 
+																
+
+{BEGIN cellblock_step2_c7}
+<td
+	{$cell_step2_c7}
+	class=" r-ori-vert"
+	
+			data-single
+			
+			data-cellId="step2_c7" data-pageid="{$pageid}"
+		data-v-cell="2"
+		
+>
+	<div edit-form-cell class="clearfix">
+				
+{BEGIN evaluador_dep_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_evaluador_dep}  r-vertical-field" 
+	data-signal-error-for="evaluador_dep{$id}" {$required_attr_evaluador_dep}
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field10" {$item_integrated_edit_field10} data-pageid="{$pageid}" data-field="evaluador_dep" data-fieldname="evaluador_dep" >
+
+	<label class="r-edit-label control-label" for="{$labelfor_evaluador_dep}">
+		{BEGIN evaluador_dep_label}{$label concertacion_po_3 evaluador_dep }{END evaluador_dep_label}
+		<span class="icon-required"></span>
+	</label>
+	<div class="r-edit-field">
+		{$evaluador_dep_editcontrol}	</div>
+	<div class="r-edit-tooltip" data-helpfor="evaluador_dep" {$tooltipAttr concertacion_po_3 evaluador_dep } >
+		<div class="text-muted" >
+		{$tooltip concertacion_po_3 evaluador_dep }		</div>
+	</div>
+</div>
+
+
+{END evaluador_dep_fieldblock}
+	
+								</td>
+			{END cellblock_step2_c7}
+								</tr>
+			</tbody></table>
+{END step2_block}
+</div>	
+	{END steps_block}									{BEGIN below-grid_block}
+<div class="r-form" data-location="below-grid" id="form_below-grid_{$pageid}" data-makeup="small" {$form_below-grid} data-pageid="{$pageid}"
+		data-v-width="4"
+	data-v-margin="0"
+	
+>		
+	 
+		<div class="row">
+			 
+				<div 
+	data-cellId="below-grid_c1" data-pageid="{$pageid}"	{$cell_below-grid_c1}
+	class="			col-md-12
+	">
+	 
+		{BEGIN nextStepButton}
+<span data-itemtype="next_step" data-itemid="next_step" {$item_next_step} data-pageid="{$pageid}" data-small data-button-item>
+	<a type="button" title="" class="btn btn-primary   
+	" href="#" id="nextstep{$id}" >
+							Siguiente			</a>
+</span>
+{END nextStepButton}
+	 
+		<span data-itemtype="add_save" data-itemid="add_save" {$item_add_save} data-pageid="{$pageid}" data-small data-button-item>
+	<a type="button" title="" class="btn btn-primary   
+	" {$savebutton_attrs} >
+							Guardar			</a>
+</span>
+	 
+		<span data-itemtype="add_reset" data-itemid="add_reset" {$item_add_reset} data-pageid="{$pageid}" data-small data-button-item>
+	<a type="button" title="" class="btn btn-default   
+	" id="resetButton{$id}" >
+							Reiniciar			</a>
+</span>
+	 
+		{BEGIN back_button}
+<span data-itemtype="add_back_list" data-itemid="add_back_list" {$item_add_back_list} data-pageid="{$pageid}" data-small data-button-item>
+	<a type="button" title="" class="btn btn-default   
+	" id="backButton{$id}" >
+							Volver a la lista			</a>
+</span>
+{END back_button}
+	 
+		{BEGIN cancel_button}
+<span data-itemtype="add_cancel" data-itemid="add_cancel" {$item_add_cancel} data-pageid="{$pageid}" data-small data-button-item>
+	<a type="button" title="" class="btn btn-default   
+	" id="cancelButton{$id}" >
+							Cancelar			</a>
+</span>
+{END cancel_button}
+	</div>					</div>
+	</div>		
+{END below-grid_block}
+			</div>
+		{$footer}
+	{END body}
+	</body>
+</html>

@@ -1,0 +1,2 @@
+
+Runner.pages.PageSettings.addPageEvent('<global>',Runner.pages.constants.PAGE_LOGIN,"afterInit",function(pageObj,proxy,pageid){Swal.fire({icon:"info",title:"Evaluación del Desempeño Laboral | EDL",text:"El Grupo de Talento Humano le da la bienvenida. Su contraseña se ha sincronizado con éxito con el módulo de talento humano. Para ingresar, utilice la contraseña actual. Si desea cambiarla, por favor, solicítela al correo electrónico institucional.",timer:10000,buttons:false});});

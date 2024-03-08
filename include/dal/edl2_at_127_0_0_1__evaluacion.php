@@ -1,0 +1,46 @@
+<?php
+$dalTableevaluacion = array();
+$dalTableevaluacion["id"] = array("type"=>3,"varname"=>"id", "name" => "id", "autoInc" => "1");
+$dalTableevaluacion["idEvaluado"] = array("type"=>3,"varname"=>"idEvaluado", "name" => "idEvaluado", "autoInc" => "0");
+$dalTableevaluacion["idEvaluador"] = array("type"=>3,"varname"=>"idEvaluador", "name" => "idEvaluador", "autoInc" => "0");
+$dalTableevaluacion["idEvaluadorFinal"] = array("type"=>16,"varname"=>"idEvaluadorFinal", "name" => "idEvaluadorFinal", "autoInc" => "0");
+$dalTableevaluacion["IdEvaluador_c"] = array("type"=>3,"varname"=>"IdEvaluador_c", "name" => "IdEvaluador_c", "autoInc" => "0");
+$dalTableevaluacion["IdEvaluador_d"] = array("type"=>3,"varname"=>"IdEvaluador_d", "name" => "IdEvaluador_d", "autoInc" => "0");
+$dalTableevaluacion["vigencia"] = array("type"=>2,"varname"=>"vigencia", "name" => "vigencia", "autoInc" => "0");
+$dalTableevaluacion["periodo"] = array("type"=>16,"varname"=>"periodo", "name" => "periodo", "autoInc" => "0");
+$dalTableevaluacion["fchCreacion"] = array("type"=>7,"varname"=>"fchCreacion", "name" => "fchCreacion", "autoInc" => "0");
+$dalTableevaluacion["fchEdefinitiva"] = array("type"=>7,"varname"=>"fchEdefinitiva", "name" => "fchEdefinitiva", "autoInc" => "0");
+$dalTableevaluacion["estado"] = array("type"=>16,"varname"=>"estado", "name" => "estado", "autoInc" => "0");
+$dalTableevaluacion["email_not_cierre"] = array("type"=>200,"varname"=>"email_not_cierre", "name" => "email_not_cierre", "autoInc" => "0");
+$dalTableevaluacion["fecha_not_cierre"] = array("type"=>135,"varname"=>"fecha_not_cierre", "name" => "fecha_not_cierre", "autoInc" => "0");
+$dalTableevaluacion["sys_user"] = array("type"=>200,"varname"=>"sys_user", "name" => "sys_user", "autoInc" => "0");
+$dalTableevaluacion["evaluado_doc"] = array("type"=>200,"varname"=>"evaluado_doc", "name" => "evaluado_doc", "autoInc" => "0");
+$dalTableevaluacion["evaluado_nombre"] = array("type"=>200,"varname"=>"evaluado_nombre", "name" => "evaluado_nombre", "autoInc" => "0");
+$dalTableevaluacion["evaluado_cargo"] = array("type"=>3,"varname"=>"evaluado_cargo", "name" => "evaluado_cargo", "autoInc" => "0");
+$dalTableevaluacion["evaluado_email"] = array("type"=>200,"varname"=>"evaluado_email", "name" => "evaluado_email", "autoInc" => "0");
+$dalTableevaluacion["evaluado_dep_sup"] = array("type"=>3,"varname"=>"evaluado_dep_sup", "name" => "evaluado_dep_sup", "autoInc" => "0");
+$dalTableevaluacion["evaluado_dep"] = array("type"=>3,"varname"=>"evaluado_dep", "name" => "evaluado_dep", "autoInc" => "0");
+$dalTableevaluacion["evaluado_nombramiento"] = array("type"=>200,"varname"=>"evaluado_nombramiento", "name" => "evaluado_nombramiento", "autoInc" => "0");
+$dalTableevaluacion["evaluado_fechai_po"] = array("type"=>7,"varname"=>"evaluado_fechai_po", "name" => "evaluado_fechai_po", "autoInc" => "0");
+$dalTableevaluacion["evaluado_fechaf_po"] = array("type"=>7,"varname"=>"evaluado_fechaf_po", "name" => "evaluado_fechaf_po", "autoInc" => "0");
+$dalTableevaluacion["evaluado_fechai_pp"] = array("type"=>7,"varname"=>"evaluado_fechai_pp", "name" => "evaluado_fechai_pp", "autoInc" => "0");
+$dalTableevaluacion["evaluado_fechaf_pp"] = array("type"=>7,"varname"=>"evaluado_fechaf_pp", "name" => "evaluado_fechaf_pp", "autoInc" => "0");
+$dalTableevaluacion["evaluador_doc"] = array("type"=>200,"varname"=>"evaluador_doc", "name" => "evaluador_doc", "autoInc" => "0");
+$dalTableevaluacion["evaluador_nombre"] = array("type"=>200,"varname"=>"evaluador_nombre", "name" => "evaluador_nombre", "autoInc" => "0");
+$dalTableevaluacion["evaluador_cargo"] = array("type"=>3,"varname"=>"evaluador_cargo", "name" => "evaluador_cargo", "autoInc" => "0");
+$dalTableevaluacion["evaluador_email"] = array("type"=>200,"varname"=>"evaluador_email", "name" => "evaluador_email", "autoInc" => "0");
+$dalTableevaluacion["evaluador_dep_sup"] = array("type"=>3,"varname"=>"evaluador_dep_sup", "name" => "evaluador_dep_sup", "autoInc" => "0");
+$dalTableevaluacion["evaluador_dep"] = array("type"=>3,"varname"=>"evaluador_dep", "name" => "evaluador_dep", "autoInc" => "0");
+$dalTableevaluacion["sys_date"] = array("type"=>135,"varname"=>"sys_date", "name" => "sys_date", "autoInc" => "0");
+$dalTableevaluacion["evaluador_nombramiento"] = array("type"=>200,"varname"=>"evaluador_nombramiento", "name" => "evaluador_nombramiento", "autoInc" => "0");
+$dalTableevaluacion["valor_funcional"] = array("type"=>3,"varname"=>"valor_funcional", "name" => "valor_funcional", "autoInc" => "0");
+$dalTableevaluacion["valor_programado"] = array("type"=>3,"varname"=>"valor_programado", "name" => "valor_programado", "autoInc" => "0");
+$dalTableevaluacion["valor_pendiente"] = array("type"=>3,"varname"=>"valor_pendiente", "name" => "valor_pendiente", "autoInc" => "0");
+$dalTableevaluacion["id_comportamental_fk"] = array("type"=>3,"varname"=>"id_comportamental_fk", "name" => "id_comportamental_fk", "autoInc" => "0");
+$dalTableevaluacion["valor_comun"] = array("type"=>3,"varname"=>"valor_comun", "name" => "valor_comun", "autoInc" => "0");
+$dalTableevaluacion["valor_jerarquico"] = array("type"=>3,"varname"=>"valor_jerarquico", "name" => "valor_jerarquico", "autoInc" => "0");
+$dalTableevaluacion["valor_total"] = array("type"=>3,"varname"=>"valor_total", "name" => "valor_total", "autoInc" => "0");
+$dalTableevaluacion["id"]["key"]=true;
+
+$dal_info["edl2_at_127_0_0_1__evaluacion"] = &$dalTableevaluacion;
+?>

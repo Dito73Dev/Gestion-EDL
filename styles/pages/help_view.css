@@ -1,0 +1,16 @@
+[data-page="help_view"][data-itemid="integrated_edit_field1"][data-page="help_view"][data-itemid="integrated_edit_field1"][data-page="help_view"][data-itemid="integrated_edit_field1"][data-page="help_view"][data-itemid="integrated_edit_field1"] > * > input,
+[data-page="help_view"][data-itemid="integrated_edit_field1"][data-page="help_view"][data-itemid="integrated_edit_field1"][data-page="help_view"][data-itemid="integrated_edit_field1"][data-page="help_view"][data-itemid="integrated_edit_field1"] > * > textarea,
+[data-page="help_view"][data-itemid="integrated_edit_field1"][data-page="help_view"][data-itemid="integrated_edit_field1"][data-page="help_view"][data-itemid="integrated_edit_field1"][data-page="help_view"][data-itemid="integrated_edit_field1"] > * > select,
+[data-page="help_view"][data-itemid="integrated_edit_field1"][data-page="help_view"][data-itemid="integrated_edit_field1"][data-page="help_view"][data-itemid="integrated_edit_field1"][data-page="help_view"][data-itemid="integrated_edit_field1"] > * > * > select,
+[data-page="help_view"][data-itemid="integrated_edit_field1"][data-page="help_view"][data-itemid="integrated_edit_field1"][data-page="help_view"][data-itemid="integrated_edit_field1"][data-page="help_view"][data-itemid="integrated_edit_field1"] > .form-control-static,
+[data-page="help_view"][data-itemid="integrated_edit_field1"][data-page="help_view"][data-itemid="integrated_edit_field1"][data-page="help_view"][data-itemid="integrated_edit_field1"][data-page="help_view"][data-itemid="integrated_edit_field1"] > [id^=view],
+[data-page="help_view"][data-itemid="integrated_edit_field1"][data-page="help_view"][data-itemid="integrated_edit_field1"][data-page="help_view"][data-itemid="integrated_edit_field1"][data-page="help_view"][data-itemid="integrated_edit_field1"] label,
+[data-page="help_view"][data-itemid="integrated_edit_field1"][data-page="help_view"][data-itemid="integrated_edit_field1"][data-page="help_view"][data-itemid="integrated_edit_field1"][data-page="help_view"][data-itemid="integrated_edit_field1"] > * > .r-readonly-control {
+  font-weight: bold;
+  font-size: 35px;
+}
+[data-page="help_view"][data-itemid="page_image_ash8f23hr"] {
+  width: 400px;
+}
+
+

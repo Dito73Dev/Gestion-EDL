@@ -1,0 +1,19 @@
+Notificación de registro
+
+Te has registrado como usuario en %url%
+
+
+ID: %id_value%
+Usuario en el sistema: %usuario_value%
+Email: %email_value%
+Rol EDL: %idPerfil_value%
+Id Funcionario: %idFuncionario_value%
+Estado: %estado_value%
+Documento: %cedula_value%
+Rdnkey: %rdnkey_value%
+Borra: %borra_value%
+Groupid: %groupid_value%
+Reset Date1: %reset_date1_value%
+Foto de perfil: %userpic_value%
+Two Factor: %two_factor_value%
+Totp: %totp_value%

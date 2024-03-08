@@ -1,0 +1,4 @@
+Código de verificación: EDL
+
+E código para ingresar a: %url% es:
+%code%
